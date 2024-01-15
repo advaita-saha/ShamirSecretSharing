@@ -7,7 +7,7 @@ import
   ../constantine/helpers/prng_unsafe
 
 type
-  Scalar* = Fr[BLS12_381]
+  Scalar* = Fr[Banderwagon]
   Polynomial* = object
     coeffs*: seq[Scalar]
 

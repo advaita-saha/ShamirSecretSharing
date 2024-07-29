@@ -1,10 +1,10 @@
 import
   std/[times],
-  ../constantine/constantine/math/config/[type_ff, curves],
-  ../constantine/constantine/math/arithmetic,
-  ../constantine/constantine/math/io/[io_bigints, io_fields],
-  ../constantine/constantine/curves_primitives,
-  ../constantine/helpers/prng_unsafe
+  constantine/math/arithmetic,
+  constantine/math/io/[io_bigints, io_fields],
+  ../constantine/helpers/prng_unsafe,
+  constantine/math/ec_twistededwards,
+  constantine/named/algebras
 
 type
   Scalar* = Fr[Banderwagon]
